@@ -1,0 +1,11 @@
+{
+    "apps": [
+    {
+        "name": "worker",
+        "script": "./app.js",
+        "out_fil": "log/node-app.stdout.log",
+        "watch": true,
+        "instances" : "max",
+        "exec_mode" : "cluster"
+    }]
+}
